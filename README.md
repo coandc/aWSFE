@@ -33,7 +33,7 @@ python aWSFE_imagenet.py  --nb_cl_fg 50 --nb_cl 10 --nb_protos 20  --resume  --r
 
 
 
-For other evaluation scenarios (e.g. N=2 or T=10), please modify nb_cl or other corresponding pa.
+For other evaluation scenarios (e.g. N=2 or T=10), please modify nb_cl or other corresponding setting.
 
 ## Acknowledgements
 
