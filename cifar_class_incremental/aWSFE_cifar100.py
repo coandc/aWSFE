@@ -52,7 +52,7 @@ parser.add_argument('--nb_protos', default=20, type=int, help='Number of prototy
 parser.add_argument('--nb_runs', default=1, type=int, help='Number of runs (random ordering of classes at each run)')
 parser.add_argument('--ckp_prefix', default=os.path.basename(sys.argv[0])[:-3], type=str, help='Checkpoint prefix')
 parser.add_argument('--epochs', default=160, type=int, help='Epochs')
-parser.add_argument('--num_workers', default=0, type=int)
+parser.add_argument('--num_workers', default=4, type=int)
 parser.add_argument('--T', default=2, type=float, help='Temporature for distialltion')
 parser.add_argument('--resume', action='store_true', help='resume from checkpoint')
 parser.add_argument('--fix_budget', action='store_true', help='fix budget')
